@@ -15,7 +15,7 @@ class CalculatorTest {
         int actual = Calculator.add(a, b);
 
         //THEN
-        int expected = 9;
+        int expected = 12;
         assertEquals(expected, actual);
     }
 }
