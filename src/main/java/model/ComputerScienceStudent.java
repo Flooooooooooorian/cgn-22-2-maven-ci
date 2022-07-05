@@ -1,6 +1,6 @@
 package model;
 
-public class ComputerScienceStudent extends Student{
+public class ComputerScienceStudent extends Student implements Citizen {
 
     private String favoriteProgrammingLanguage;
 
@@ -22,5 +22,15 @@ public class ComputerScienceStudent extends Student{
     @Override
     public String getCourse() {
         return "Informatik";
+    }
+
+    @Override
+    public String getAdress() {
+        return "Deutschland";
+    }
+
+    @Override
+    public int getIdentityCardNumber() {
+        return 123;
     }
 }
